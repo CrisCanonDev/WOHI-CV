@@ -1,0 +1,31 @@
+body {
+  font-family: "Sofia", sans-serif;
+}
+
+
+.tech-skills span {
+  color: white;
+  font-size: 15px;
+}
+
+.tech-skills span:hover {
+  color: beige;
+  font-style: italic;
+}
+
+.form-group label {
+  font-style: oblique;
+  font-size: large;
+}
+
+
+.form-group input {
+  border: none;
+  border-bottom: 2px solid black;
+
+}
+
+button[type="submit"]:hover {
+  background-color: white;
+  color: blue;
+}

@@ -1,0 +1,275 @@
+p {
+  padding: 0;
+}
+
+body {
+  font: 1em sans-serif;
+
+}
+
+nav {
+  display: block;
+}
+
+#navbar-ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #dddd;
+}
+
+.navbar-li {
+  float: left;
+}
+
+a {
+  display: block;
+  padding: 10px;
+  color: rgb(37, 32, 32);
+}
+
+li a {
+  display: block;
+  text-decoration: none;
+}
+
+li a:hover {
+  font-weight: bold;
+}
+
+
+
+.index-main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+
+.index-main h1 {
+  display: inline-block;
+}
+
+img {
+  border-radius: 50%;
+  height: 25%;
+  width: 25%;
+  margin: auto;
+  min-width: 250px;
+  min-height: 250px;
+}
+
+.info-title {
+  font-weight: bold;
+  font-style: italic;
+}
+
+
+
+.index-main-information {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.index-main-information a {
+  display: inline;
+  padding: 0;
+}
+
+.paragraph-title {
+  color: rgb(70, 70, 219);
+  font-weight: bolder;
+  font-size: larger;
+
+}
+
+.line-divider {
+  border-bottom: 3px double black;
+  margin: 10px;
+
+}
+
+.index-social {
+  display: block;
+}
+
+.index-social span {
+  font-size: 20px;
+  color: green;
+  font-weight: bold;
+}
+
+.studies-card {
+  border: 2px outset black;
+  padding: 1.5%;
+  font: sans-serif;
+  margin: 10px 0;
+}
+
+.studies-location {
+  font-weight: bold;
+  font-style: italic;
+  color: rgb(80, 79, 79);
+  display: inline;
+}
+
+.location-dates {
+  color: rgb(80, 79, 79);
+  font-weight: 300;
+  font-style: normal;
+}
+
+.studies-name {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.studies-card span {
+  font-style: italic;
+  font-weight: 10px;
+}
+
+.studies-location {
+  font: em sans-serif;
+  font-variant: small-caps;
+}
+
+.studies-text {
+  text-indent: 2ch;
+}
+
+
+.studies-info div {
+  display: inline;
+
+}
+
+.studies-info .title {
+  font-weight: 700;
+}
+
+.title {
+  padding: 0;
+}
+
+.title span {
+  font-weight: 100;
+}
+
+.first {
+
+  border-right: 2px solid grey;
+  padding-right: 10px;
+}
+
+.language {
+  max-width: 45%;
+}
+
+.language-title {
+  font-weight: bold;
+  font-size: 19px;
+  padding: 10px;
+}
+
+
+.language-section {
+  display: flex;
+  align-items: end;
+
+}
+
+.language {
+  display: inline-block;
+  border: 2px outset black;
+  margin: 10px;
+}
+
+.inner-lang {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.inner-lang span {
+  font-weight: bold;
+}
+
+.inner-lang p,
+.lang-title {
+  display: inline;
+  padding: 0 10px;
+}
+
+.lang-title {
+  margin-top: 10px;
+  display: block;
+}
+
+.tech-skills {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.skill,
+.hobbies {
+  font-size: 20px;
+  border: 2px dotted rgb(74, 73, 73);
+  padding: 10px;
+  margin: 10px;
+}
+
+.hobbies-title {
+  font-size: 25px;
+  font-weight: 800;
+}
+
+iframe {
+  width: 60%;
+  height: 500px;
+  display: block;
+  margin: 0 auto;
+}
+
+
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 1px outset;
+  min-height: 300px;
+}
+
+.form-example label {
+  font-weight: 600;
+  font-size: 20px;
+
+}
+
+.form-example input {
+  border-style: none;
+  border-bottom: 1px solid black;
+
+}
+
+.radioBut {
+  font-style: italic;
+  font-weight: lighter;
+  font-size: small;
+}
+
+
+input[type=submit] {
+  margin: 10px auto;
+  padding: 5px 15px;
+  background: #ccc;
+  border: 0 none;
+  cursor: pointer;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
